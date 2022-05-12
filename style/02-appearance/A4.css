@@ -6,10 +6,10 @@
 /* 设置正文背景颜色/A4纸大小 */
 .protyle .b3-typography,
 .protyle .protyle-wysiwyg {
-    max-width: 21cm;
+    max-width: 19cm;
     margin: 4px auto 4px !important;
-    padding-left: 0cm !important;
-    padding-right: 0cm !important;
+    padding-left: 1cm !important;
+    padding-right: 1cm !important;
 }
 
 /* .protyle-content {

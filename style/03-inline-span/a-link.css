@@ -6,10 +6,13 @@
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty)::before {
-    content: "↗";
+    /* content: "↗";
     font-family: var(--b3-font-family-code);
     color: #0081c2;
-    margin-right: 6px;
+    margin-right: 6px; */
+    content: url("../../src/link.svg");
+    position: relative;
+    top: 0.2em;
 }
 
 /* 集市中说明文档链接样式 */

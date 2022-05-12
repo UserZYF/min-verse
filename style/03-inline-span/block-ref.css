@@ -2,25 +2,23 @@
 
 /* 设置引用块格式 */
 .protyle-wysiwyg [data-node-id] span[data-type='block-ref'] {
-    color: #2b629b;
+    color: #202124;
     /* background-color: #0066ff1a; */
     padding: 1px 3px;
     border-radius: 4px;
+    background-color: #f7f7f7;
 }
 
 /* 为引用块后面增加引用图标 */
 .protyle-wysiwyg [data-node-id] span[data-type="block-ref"]::before {
-    color: rgba(128, 128, 128, 0.6);
-    content: "[[";
-}
-
-.protyle-wysiwyg [data-node-id] span[data-type="block-ref"]::after {
-    color: rgba(128, 128, 128, 0.6);
-    content: "]]";
+    content: "📑";
+    font-size: 0.9em;
+    margin-left: 0.3em;
+    margin-right: 0.1em;
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type="block-ref"]:hover {
-    background-color: #0066ff1a;
+    background-color: #f8f9fa;
 }
 
 

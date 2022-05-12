@@ -9,6 +9,9 @@
     background-color: transparent;
     border-top: 1px solid var(--b3-border-color);
     border-bottom: 1px dashed var(--b3-border-color);
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    box-sizing: border-box !important;
 }
 
 /* ————————————————————设置界面字体大小，不包括正文，正文字体大小在编辑器那里选择———————————————————— */
