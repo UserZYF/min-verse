@@ -22,8 +22,18 @@ ul.fn__flex.layout-tab-bar {
     margin-left: 4px;
 }
 
+.layout-tab-bar .item:not(:last-child) {
+    box-shadow: none;
+}
+
+.layout__wnd--active .layout-tab-bar .item--focus {
+    box-shadow: inset 0 2px 0 0 transparent,
+        0px 0px 0.5px rgba(0, 0, 0, 0.055),
+        0px 0px 4px rgba(0, 0, 0, 0.11) !important;
+}
+
 /* 标签页中文字的相关设置 */
-.layout-tab-bar .item:not(.item--focus) .item__text {
+.layout-tab-bar .item .item__text {
     width: 6em;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
@@ -39,9 +49,6 @@ ul.fn__flex.layout-tab-bar {
     background-color: white;
     box-shadow: none !important;
     min-width: 12em;
-    box-shadow:
-        0px 0px 0.5px rgba(0, 0, 0, 0.055),
-        0px 0px 4px rgba(0, 0, 0, 0.11) !important;
     z-index: 1;
     border-radius: 4px;
 
@@ -50,9 +57,23 @@ ul.fn__flex.layout-tab-bar {
 /* 设置当前标签页文字样式 */
 .layout-tab-bar .item--focus .item__text {
     color: var(--b3-theme-on-background) !important;
-    width: 6em;
 }
 
+/* 减小标签页上的emoji大小 */
+.layout-tab-bar .item__icon>img, .layout-tab-bar .item__icon>svg {
+    height: 16px;
+    width: 16px;
+}
 
+/* 为钉住的标签页右上角增加大头钉图标 */
+li.item.item--pin::after {
+    content: "";
+    content: url("../../src/pin.svg");
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: 12px;
+    height: 12px;
+}
 
 /* --------------------------------------------------标签页 END--------------------------------------------- */

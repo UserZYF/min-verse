@@ -112,16 +112,16 @@
     /* 13种自定义文字颜色 */
     --b3-font-color1: #ff0000;
     --b3-font-color2: #ffa300;
-    --b3-font-color3: #ffd800;
+    --b3-font-color3: #e4c411;
     --b3-font-color4: #00d208;
     --b3-font-color5: #00eda1;
     --b3-font-color6: #0056ff;
     --b3-font-color7: #9b00ff;
-    --b3-font-color8: #6c757d;
-    --b3-font-color9: white;
-    --b3-font-color10: white;
-    --b3-font-color11: white;
-    --b3-font-color12: white;
+    --b3-font-color8: #c9c9c9;
+    --b3-font-color9: #f9dde0;
+    --b3-font-color10: #fff5d5;
+    --b3-font-color11: #d8eff3;
+    --b3-font-color12: #dbf0e0;
     --b3-font-color13: gray;
 
     /* 13种自定义背景颜色 */

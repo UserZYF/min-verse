@@ -1,17 +1,18 @@
 /* 隐藏左上角设置按钮，鼠标悬浮时显示 */
 #toolbar .toolbar__item svg {
     opacity: 0;
-    /* background-color: red; */
 }
 
 #toolbar:hover svg {
     opacity: 1;
 }
 
+/* 设置软件顶部标题颜色 */
+.toolbar #drag {
+    color: #55555a4d;
+}
+
 /* 给左侧dock栏设置右边框 */
-/* div#dockLeft {
-    border-right: 1px solid var(--b3-border-color);
-} */
 div#dockLeft {
     border-right: 1px solid rgba(0, 0, 0, .07);
 }

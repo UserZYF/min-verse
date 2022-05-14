@@ -1,35 +1,8 @@
-/* ———————————————自定义13种背景样式，前7种为彩虹色—————————————————— */
-/* strong[style="background-color: var(--b3-font-background1);"] {
-    border-bottom: 0.1em solid var(--b3-font-color1);
+/* 将第八种文字取消加粗 */
+strong[style="color: var(--b3-font-color8);"] {
+    font-weight: normal;
 }
 
-strong[style="background-color: var(--b3-font-background2);"] {
-    border-bottom: 0.1em solid var(--b3-font-color2);
-}
-
-strong[style="background-color: var(--b3-font-background3);"] {
-    border-bottom: 0.1em solid var(--b3-font-color3);
-}
-
-strong[style="background-color: var(--b3-font-background4);"] {
-    border-bottom: 0.1em solid var(--b3-font-color4);
-}
-
-strong[style="background-color: var(--b3-font-background5);"] {
-    border-bottom: 0.1em solid var(--b3-font-color5);
-}
-
-strong[style="background-color: var(--b3-font-background6);"] {
-    border-bottom: 0.1em solid var(--b3-font-color6);
-}
-
-strong[style="background-color: var(--b3-font-background7);"] {
-    border-bottom: 0.1em solid var(--b3-font-color7);
-}
-
-strong[style="background-color: var(--b3-font-background8);"] {
-    border-bottom: 0.1em solid var(--b3-font-color8);
-} */
 
 div[style="background-color: var(--b3-font-background9);"],
 strong[style="background-color: var(--b3-font-background9);"] {

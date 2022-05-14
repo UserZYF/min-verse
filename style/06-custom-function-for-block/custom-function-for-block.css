@@ -299,7 +299,7 @@ div[data-node-id][data-type="NodeHeading"][custom-f~=dm]::after {
 }
 
 .protyle-wysiwyg *[custom-f="bg"] .li:hover {
-    background-color: var(--b3-theme-hover2);
+    background-color: rgba(154, 153, 155, .08);
 }
 
 /* ————————————————————大神增加代码———————————————————— */
