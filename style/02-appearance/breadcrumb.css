@@ -1,17 +1,11 @@
 /* -------------------------------------------------面包屑导航样式-------------------------------------------- */
 .protyle-breadcrumb {
     color: #55555a80;
-    /* background-color: #f8f9fa; */
     font-size: 14px !important;
     height: 26px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    /* margin: 6px; */
-    /* margin-left: 6px;
-    margin-right: 6px;
-    border: 1px solid rgba(0, 0, 0, .07);
-    border-radius: 4px !important; */
 }
 
 .protyle-breadcrumb__item svg {
@@ -19,13 +13,19 @@
     width: 14px;
 }
 
-/* .fn__flex-1.protyle {
-    background-color: white;
-} */
+/* 调整面包屑文字颜色 */
+.protyle-breadcrumb__item {
+    color: #55555a4d;
+}
 
-/* .protyle-content {
-    border-top: var(--b3-border-normal);
-    box-shadow: var(--b3-protyle-content-shadow);
-} */
+.protyle-breadcrumb__item--active {
+    color: var(--b3-theme-on-background);
+}
+
+.protyle-breadcrumb__item:hover {
+    color: var(--b3-theme-on-background) !important;
+    background-color: rgba(154, 153, 155, .08) !important;
+}
+
 
 /* -------------------------------------------------面包屑导航样式 END-------------------------------------------- */

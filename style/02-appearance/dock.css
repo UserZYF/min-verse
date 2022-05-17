@@ -12,6 +12,18 @@
     margin: 0 4px;
 }
 
+/* 设置顶栏高度 */
+.toolbar {
+    height: 24px;
+    line-height: 24px;
+}
+
+/* 调整顶栏图标大小 */
+div#toolbar svg {
+    height: 12px;
+    width: 12px;
+}
+
 /* 设置软件顶部标题颜色 */
 .toolbar #drag {
     color: #55555a4d;

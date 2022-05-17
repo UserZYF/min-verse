@@ -18,10 +18,6 @@ ul.fn__flex.layout-tab-bar {
     margin-bottom: 4px;
 }
 
-.layout-tab-bar .item .item--pin {
-    min-width: fit-content !important;
-    width: 1em !important;
-}
 
 .layout-tab-bar .item:first-child {
     margin-left: 4px;
@@ -98,9 +94,14 @@ li.item.item--pin.item--focus:after {
 }
 
 
-li.item.item--pin .item__icon {
-    position: relative;
-    left: 40%;
+.layout-tab-bar .item--pin .item__text {
+    display: block !important;
+    /* margin-left: -1em; */
+}
+
+/* 去掉标签页上面的emoji */
+.layout-tab-bar .item__icon {
+    display: none;
 }
 
 /* --------------------------------------------------标签页 END--------------------------------------------- */
