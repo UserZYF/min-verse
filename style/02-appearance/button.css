@@ -15,6 +15,11 @@
     box-shadow: none;
 }
 
+.b3-button--outline:hover,
+.b3-button--outline:focus {
+    box-shadow: none;
+}
+
 /* ————————————————————鼠标悬浮时按钮样式———————————————————— */
 .b3-button--text:hover,
 .b3-button--text:focus,

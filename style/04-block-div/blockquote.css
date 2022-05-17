@@ -12,6 +12,7 @@
 .protyle-wysiwyg [data-node-id].bq::before,
 .b3-typography blockquote::before {
     content: url("../../src/bq.svg");
+    margin-left: 4px;
 }
 
 /* 设置统一的格式 */

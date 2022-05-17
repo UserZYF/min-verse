@@ -18,8 +18,17 @@ ul.fn__flex.layout-tab-bar {
     margin-bottom: 4px;
 }
 
+.layout-tab-bar .item .item--pin {
+    min-width: fit-content !important;
+    width: 1em !important;
+}
+
 .layout-tab-bar .item:first-child {
     margin-left: 4px;
+}
+
+.layout-tab-bar .item:last-child {
+    margin-right: 4px;
 }
 
 .layout-tab-bar .item:not(:last-child) {
@@ -66,7 +75,7 @@ ul.fn__flex.layout-tab-bar {
 }
 
 /* 为钉住的标签页右上角增加大头钉图标 */
-li.item.item--pin::after {
+li.item.item--pin:not(.item--focus):after {
     content: "";
     content: url("../../src/pin.svg");
     position: absolute;
@@ -74,6 +83,24 @@ li.item.item--pin::after {
     top: 0px;
     width: 12px;
     height: 12px;
+    opacity: 0.3;
+    filter: grayscale(100%);
+}
+
+li.item.item--pin.item--focus:after {
+    content: "";
+    content: url("../../src/pin.svg") !important;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+
+li.item.item--pin .item__icon {
+    position: relative;
+    left: 40%;
 }
 
 /* --------------------------------------------------标签页 END--------------------------------------------- */

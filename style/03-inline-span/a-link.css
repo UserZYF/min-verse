@@ -1,17 +1,26 @@
 /* -----------------------------------------超链接 a----------------------------------- */
 
+.protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty)::before {
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    background-image: url('../../src/net3.svg');
+    content: "";
+    top: 0.15em;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.2em;
+}
+
 .protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty) {
-    border-bottom: 0.1em solid #0081c2;
+    border-bottom-color: transparent;
+    text-decoration: 2px solid #0081c2 underline;
+    text-underline-offset: 2px;
     color: var(--b3-theme-on-background);
 }
 
-.protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty)::before {
-    content: "↗";
-    font-family: var(--b3-font-family-code);
-    color: #0081c2;
-    margin-right: 6px;
-    margin-left: 6px;
-}
+
 
 /* 集市中说明文档链接样式 */
 .item__readme.b3-typography a {

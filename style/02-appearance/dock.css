@@ -7,6 +7,11 @@
     opacity: 1;
 }
 
+/* 调整顶栏图标外边距 */
+#toolbar .toolbar__item {
+    margin: 0 4px;
+}
+
 /* 设置软件顶部标题颜色 */
 .toolbar #drag {
     color: #55555a4d;

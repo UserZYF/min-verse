@@ -22,7 +22,7 @@
     line-height: 1.5em;
     color: #80808080;
     padding-bottom: 4px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.08);
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.08); */
 }
 
 /* 快捷键大小 */

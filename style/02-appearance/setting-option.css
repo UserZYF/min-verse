@@ -42,12 +42,15 @@ li.b3-list-item--focus.b3-list-item.b3-list-item--big {
 /* 为“打开主题文件夹”的按钮设置下划线 */
 a#appearanceOpenTheme,
 a#appearanceOpenIcon {
-    border-bottom: 2px solid gray;
+    /* border-bottom: 2px solid gray; */
+    color: rgb(100, 100, 255);
 }
+
 
 a#appearanceOpenTheme:hover,
 a#appearanceOpenIcon:hover {
     text-decoration: none;
+    background-color: rgb(100, 100, 255, 0.1);
 }
 
 /* ————————————————————账号-续订价格那里的设置———————————————————— */
@@ -74,4 +77,9 @@ a#appearanceOpenIcon:hover {
 /* 设置对话框级别 */
 .config-bazaar__readme {
     z-index: 2;
+}
+
+/* 调整集市中下载按钮"↓"的颜色 */
+.b3-card svg.svg.fn__flex-center {
+    color: #80808080;
 }

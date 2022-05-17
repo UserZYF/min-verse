@@ -12,6 +12,7 @@
     padding-top: 3px !important;
     padding-bottom: 3px !important;
     box-sizing: border-box !important;
+    height: 38px;
 }
 
 /* ————————————————————设置界面字体大小，不包括正文，正文字体大小在编辑器那里选择———————————————————— */
@@ -153,7 +154,7 @@ span.b3-list-item__action.b3-tooltips[data-type="new"] {
     background-image: url("../../src/new.svg");
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    top: 4px;
+    top: 1px;
 }
 
 span.b3-list-item__action.b3-tooltips[data-type="new"]:hover {
@@ -173,7 +174,7 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"] {
     background-image: url(../../src/new-file.svg);
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    top: 4px;
+    top: 1px;
 }
 
 span.b3-list-item__action.b3-tooltips[data-type="more-root"]:hover,
@@ -258,4 +259,9 @@ li.b3-list-item.b3-list-item--hide-action {
     content: "6";
     margin-right: 4px;
     color: var(--b3-font-color6);
+}
+
+/* 鼠标在文档树前面悬浮时背景为透明 */
+.b3-list-item__toggle--hl:hover {
+    background-color: transparent;
 }
