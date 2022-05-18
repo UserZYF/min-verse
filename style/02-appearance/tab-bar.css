@@ -96,7 +96,6 @@ li.item.item--pin.item--focus:after {
 
 .layout-tab-bar .item--pin .item__text {
     display: block !important;
-    /* margin-left: -1em; */
 }
 
 /* 去掉标签页上面的emoji */
