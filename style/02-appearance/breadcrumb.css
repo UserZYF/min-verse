@@ -2,7 +2,6 @@
 .protyle-breadcrumb {
     color: #55555a80;
     font-size: 14px !important;
-    height: 26px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

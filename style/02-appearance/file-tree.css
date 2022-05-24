@@ -191,6 +191,7 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
     height: 2em;
 } */
 
+.fn__flex-1.fn__flex-column.file-tree.sy__outline .b3-list-item,
 .fn__flex-1.fn__flex-column.file-tree.sy__file .b3-list-item {
     height: 2em;
 }

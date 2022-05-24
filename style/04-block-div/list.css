@@ -1,7 +1,7 @@
 .protyle-wysiwyg [data-node-id].li>[data-node-id]:before {
     content: "";
     position: absolute;
-    border-left: 0.1em solid rgba(0, 0, 0, .07);
+    border-left: 0.1em solid #ededed;
     top: 4px;
     left: -18px;
     z-index: 3;

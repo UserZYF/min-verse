@@ -15,8 +15,8 @@
 
 .protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty) {
     border-bottom-color: transparent;
-    text-decoration: 2px solid #0081c2 underline;
-    text-underline-offset: 2px;
+    text-decoration: 0.1em solid #0081c2 underline;
+    text-underline-offset: 0.1em;
     color: var(--b3-theme-on-background);
 }
 
