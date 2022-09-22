@@ -1,6 +1,6 @@
 /* 将第八种文字取消加粗 */
 strong[style="color: var(--b3-font-color8);"] {
-    font-weight: normal;
+    font-weight: inherit;
 }
 
 

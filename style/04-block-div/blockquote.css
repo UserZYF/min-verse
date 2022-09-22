@@ -4,9 +4,9 @@
 .b3-typography blockquote {
     border-left-color: transparent;
     background-color: #fafafa;
-    width: fit-content;
-    min-width: 12em;
-    font-weight: 550;
+    /* width: fit-content; */
+    /* min-width: 12em; */
+    /* font-weight: 550; */
 }
 
 .protyle-wysiwyg [data-node-id].bq:not(div.list div.bq):before,

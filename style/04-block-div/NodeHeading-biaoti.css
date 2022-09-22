@@ -1,35 +1,21 @@
 /* ——————————————————————————文档标题样式—————————————————————————— */
 .protyle-title__input {
     background-color: transparent;
-    /* padding-left: 0px;
-    margin-left: 0px; */
-    line-height: 1.3 !important;
 }
 
-/* 设置标题左边icon的样式 */
+/* 设置文档标题左侧icon的位置 */
 .protyle-title__icon {
-    top: 1em;
-    left: 0px;
+    top: 1.3em;
 }
 
-.protyle-title.protyle-wysiwyg--attr span svg {
+
+/* 设置文档标题左侧icon的颜色 */
+.protyle-title__icon svg {
     width: 1.5em;
     height: 1.5em;
-    color: #80808080;
+    color: #8080804d;
 }
 
-/* 设置标题宽度 */
-.protyle-title.protyle-wysiwyg--attr {
-    max-width: 19cm;
-    margin: 4px auto 4px !important;
-    padding-left: 1cm !important;
-    padding-right: 1cm !important;
-}
-
-/* 修改头图emoji位置 */
-.protyle-background .protyle-background__iconw {
-    left: max(calc((100% - min(1380px, max(710px, 40vw))) / 2), 1cm) !important;
-}
 
 /* ——————————————————————————H1-H6 标题样式—————————————————————————— */
 /* 标题居左对齐，采用彩虹色前6色 红橙黄绿青蓝 */

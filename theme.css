@@ -12,8 +12,6 @@
 /* ————————————————————界面修改———————————————————— */
 /* 修改上左右dock栏样式 */
 @import url("style/02-appearance/dock.css");
-/* 修改正文A4纸大小 */
-@import url("style/02-appearance/A4.css");
 /* 修改文档树样式 */
 @import url("style/02-appearance/file-tree.css");
 /* 修改标签页样式 */
@@ -25,13 +23,11 @@
 /* 修改选中文字后弹出的悬浮工具栏的样式 */
 @import url("style/02-appearance/toolbar.css");
 /* 修改弹出菜单的样式 */
-@import url("style/02-appearance/meun.css");
+@import url("style/02-appearance/menu.css");
 /* 修改按钮样式 */
 @import url("style/02-appearance/button.css");
 /* 修改设置界面样式 */
 @import url("style/02-appearance/setting-option.css");
-/* 修改警告界面样式 */
-@import url("style/02-appearance/warning-color.css");
 
 
 /* ————————————————————行内元素———————————————————— */
@@ -69,6 +65,8 @@
 @import url("style/04-block-div/image.css");
 /* 修改列表样式 */
 @import url("style/04-block-div/list.css");
+/* 修改待办事项样式 */
+@import url("style/04-block-div/task.css");
 /* 修改代码块样式 */
 @import url("style/04-block-div/code-block.css");
 /* 修改超级块样式 */
